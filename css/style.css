@@ -1,21 +1,45 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #FAFAFA;
   font-size: 18px;
 }
 
 .container {
-  margin: auto;
-  margin-top: 25px;
+  background-color: #dadada;
   text-align: center;
   width: 25%;
-  background-color: #dadada;
+  margin: 25px auto 25px auto;
+  padding: 25px;
+  display: block;
 }
 
-img {
-  height: auto;
-  width: 100%;
+.baku {
+  background-image: url(./../images/baku.jpg);
+  padding: inherit;
+  margin: 25px;
+  background-size: 100% 100%;
 }
 
-.title {
-  margin-top: 20px;
+.london {
+  background-image: url(./../images/london.png);
+  padding: inherit;
+  margin: 25px;
+  background-size: 100% 100%;
+}
+
+.madrid {
+  background-image: url(./../images/madrid.jpg);
+  padding: inherit;
+  margin: 25px;
+  background-size: 100% 100%;
+}
+
+.rome {
+  background-image: url(./../images/rome.jpg);
+  padding: inherit;
+  margin: 25px;
+  background-size: 100% 100%;
 }
