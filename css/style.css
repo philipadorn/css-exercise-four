@@ -1,4 +1,21 @@
 body {
+  background-color: #FAFAFA;
+  font-size: 18px;
+}
+
+.container {
+  margin: auto;
+  margin-top: 25px;
+  text-align: center;
+  width: 25%;
   background-color: #dadada;
-  font-size: 10px;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+.title {
+  margin-top: 20px;
 }
