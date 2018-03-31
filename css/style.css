@@ -5,6 +5,7 @@
 body {
   background-color: #FAFAFA;
   font-size: 18px;
+  display: block;
 }
 
 .container {
@@ -12,34 +13,41 @@ body {
   text-align: center;
   width: 25%;
   margin: 25px auto 25px auto;
-  padding: 25px;
   display: block;
+}
+
+.preview {
+  height: 300px;
+}
+
+.title {
+  margin: 25px;
 }
 
 .baku {
   background-image: url(./../images/baku.jpg);
   padding: inherit;
   margin: 25px 0 25px 0;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .london {
   background-image: url(./../images/london.png);
   padding: inherit;
   margin: 25px 0 25px 0;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .madrid {
   background-image: url(./../images/madrid.jpg);
   padding: inherit;
   margin: 25px 0 25px 0;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .rome {
   background-image: url(./../images/rome.jpg);
   padding: inherit;
   margin: 25px 0 25px 0;
-  background-size: 100% 100%;
+  background-size: cover;
 }
