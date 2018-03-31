@@ -11,40 +11,30 @@ body {
   background-color: #dadada;
   text-align: center;
   width: 100%;
-  margin: 25px auto 25px auto;
-  display: block;
+  margin: 0 auto;
 }
 
 .preview {
   height: 300px;
-  width: 300px;
 }
 
 .baku {
   background-image: url(./../images/baku.jpg);
-  padding: inherit;
-  margin: 25px 0 25px 0;
   background-size: cover;
 
 }
 
 .london {
   background-image: url(./../images/london.png);
-  padding: inherit;
-  margin: 25px 0 25px 0;
   background-size: cover;
 }
 
 .madrid {
   background-image: url(./../images/madrid.jpg);
-  padding: inherit;
-  margin: 25px 0 25px 0;
   background-size: cover;
 }
 
 .rome {
   background-image: url(./../images/rome.jpg);
-  padding: inherit;
-  margin: 25px 0 25px 0;
   background-size: cover;
 }
