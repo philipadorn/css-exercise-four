@@ -5,23 +5,19 @@
 body {
   background-color: #FAFAFA;
   font-size: 18px;
-  display: block;
 }
 
 .container {
   background-color: #dadada;
   text-align: center;
-  width: 25%;
+  width: 100%;
   margin: 25px auto 25px auto;
   display: block;
 }
 
 .preview {
   height: 300px;
-}
-
-.title {
-  margin: 25px;
+  width: 300px;
 }
 
 .baku {
@@ -29,6 +25,7 @@ body {
   padding: inherit;
   margin: 25px 0 25px 0;
   background-size: cover;
+
 }
 
 .london {
