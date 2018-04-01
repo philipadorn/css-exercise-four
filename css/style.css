@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #FAFAFA;
+  background-color: #dadada;
   font-size: 18px;
 }
 
@@ -16,27 +16,51 @@ body {
 
 .preview {
   height: 300px;
-  width: 300px;
-  margin: 25px 25px 0 25px;
+  width: 100%;
+  margin-top: 25px;
   background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: helvetica;
+  margin: 30px;
+}
+
+.preview h1 {
+  font-family: serif;
+  text-align: left;
+  text-transform: none;
+  margin: 20px;
+}
+
+@media screen and (min-width: 575px) {
+  .preview {
+    width: 48%;
+    margin: 1%;
+    float: left;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .preview {
+    width: 23%;
+  }
 }
 
 .baku {
   background-image: url(./../images/baku.jpg);
-  background-size: cover;
 }
 
 .london {
   background-image: url(./../images/london.png);
-  background-size: cover;
 }
 
 .madrid {
   background-image: url(./../images/madrid.jpg);
-  background-size: cover;
 }
 
 .rome {
   background-image: url(./../images/rome.jpg);
-  background-size: cover;
 }
