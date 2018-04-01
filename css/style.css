@@ -26,13 +26,16 @@ h1 {
   text-transform: uppercase;
   font-family: helvetica;
   margin: 30px;
+  font-size: 16px;
 }
 
 .preview h1 {
   font-family: serif;
   text-align: left;
   text-transform: none;
-  margin: 20px;
+  margin: 10px;
+  padding: 35px;
+  font-size: 20px;
 }
 
 @media screen and (min-width: 575px) {
@@ -41,11 +44,19 @@ h1 {
     margin: 1%;
     float: left;
   }
+  .preview h1 {
+    font-size: 20px;
+  }
 }
 
 @media screen and (min-width: 991px) {
   .preview {
     width: 23%;
+  }
+  .preview h1 {
+    font-size: 20px;
+    margin: 10px;
+    padding: 30px;
   }
 }
 
